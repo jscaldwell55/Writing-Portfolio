@@ -19,6 +19,7 @@ header {
 article {
     margin-bottom: 20px;
     padding: 40px;
+    line-height: 1.6;
     border: 1px solid #ddd;
     background-color: #fff;
 }
