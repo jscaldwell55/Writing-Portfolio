@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jay Caldwell Writing Portfolio</title>
+    <title>Jay Caldwell Portfolio</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,184 +12,130 @@
         <p>Welcome! The writing samples below are blog posts I wrote for Vapi (AI startup) and Simpli.fi (ad tech company).</p>
     </header>
     
-    <section id="works">
+   <section id="works">
         <article>
             <h2>Sora, Markov Chain, and AI Angst</h2>
             <p>Part 1</p>
-                </p>The release of OpenAI’s Sora has generated both excitement and consternation. And while the fears are nothing if not predictable, it does make me wonder about the core issues underlying all of the hullabaloo. So, I did the only reasonable thing: I asked ChatGPT. The response consisted of eight main reasons why people are scared of AI. I will ambitiously (and perhaps over-optimistically) attempt to address each one in two separate blog posts.</p>
-                <p></p>Loss of Jobs
-                </p>“One of the most immediate concerns is the fear that AI and automation will lead to widespread job loss. As AI systems become more capable of performing tasks traditionally done by humans, from manufacturing to even more complex cognitive jobs, there's a worry that humans will be increasingly displaced from the workforce.” - ChatGPT</p>
-                
-                </p>It’s certainly not unreasonable to assume that automating tasks and workflows with AI would displace human employees and eliminate roles. And I’m sure to some extent this has happened already and will in the future; though I fear, as with so many issues that are emotionally charged, confirmation bias trumps good faith attempts to measure causality.</p>
-                
-                <p>In any event, this issue is not unique to AI. The biggest paradigm shifts in tech (e.g., microprocessors, smart phones, etc.) have always resulted in disruption that reverberates throughout the economy and society. And once the technology is ubiquitous, it essentially becomes invisible. We’re already seeing this. I would venture to say that the majority of people are unaware of how much AI is already being used in the workplace. Much less that they’re using it whenever an email goes to Spam or Amazon makes a recommendation.</p>
-               
-                <p>The most important takeaway is that AI will continue on its current trajectory. To quote the title of a 2023 article in the Harvard Business Review by Karim Lakhani: “AI Won’t Replace Humans But Humans With AI Will Replace Humans Without AI”.</p>
-                
-                <p></p>AI Overlords
-                <p>“Popular culture often depicts scenarios where AI becomes too intelligent or self-aware, leading to situations where humans can no longer control or predict AI behavior. This fear is rooted in the concern that AI might one day surpass human intelligence (a concept known as the singularity), potentially leading to outcomes that could harm humanity.”- ChatGPT</p>
-                
-                <p>This is what I like to think of as “the Skynet scenario”. Recently, it seems that Artificial General Intelligence has replaced singularity as the AI that could eventually supplant humankind. For example, in his 2023 State of AI Report, Ian Hogwarth defines AGI as “God-like AI.” But do we know what this would actually look like?</p> 
-               
-                <p></p>I like the argument put forth by Cambridge’s Dr. Tom McClelland. His view is that we’re not in a position to make an informed judgment about the likelihood of conscious AI, since we don’t really understand our own human consciousness. The MIT Technology Review makes a similar point regarding the difficulty in coming up with a single test or theory to determine consciousness.
-               
-                <p></p>The difficulty humans have in defining our own consciousness reminds me of the “turkey illusion” Bertrand Russel used to explain Hume’s problem of induction. This is a great illustration of how AI complements us. While we can’t be certain the sun will rise tomorrow based on past sunrises, AI gets us a lot closer. Perhaps the realization that AI addresses a pre-existing human need would make it feel more like natural technological progress than a dangerous entity.
-               
-                <p></p>And in any event, the technology underlying GenAI has been around for decades. A good example is the Markov chain (first paper published in 1906). To predict text, a Markov model generates the next word in a sentence by looking at the previous word, or perhaps a few previous words. The basic models behind ChatGPT generate responses in a similar way. 
-               
-                <p></p>To quote MIT professor Tommi Jaakkola: “We were generating things way before the last decade, but the major distinction here is in terms of the complexity of objects we can generate and the scale at which we can train these models.” In other words, the fundamental tech is not new, but the applications are.
-              
-                
-                <p></p>Part 2
-                
-                <p></p>Yesterday we began our inquiry into what it is about AI that generates fear among so much of the populace. In Part 1, I addressed the first two of eight reasons provided by ChatGPT. In this post, we’ll tackle the next four, and the remaining two in Part 3. 
-               
-                <p></p>Privacy Invasion
-                <p></p>“AI technologies, especially those involving surveillance and data analysis, raise fears about the erosion of privacy. The ability of AI systems to collect, analyze, and act on vast amounts of personal data can lead to unprecedented levels of surveillance and intrusion into private lives.” - ChatGPT
-                
-                <p></p>A 2023 survey conducted by Pew Research Center found that 81% of Americans are concerned about how private companies use the data collected about them, and 71% of companies are concerned about how the government uses the data they collect about them. Clearly, this is a deep-seated concern.
-                
-                <p></p>However, I’m not convinced this should be laid at the door of AI. In a former life, I spent five years in AdTech as both a marketer and product manager. And we collected massive amounts of data on users and households (thankfully I never saw any PII fail to be deidentified). But while I personally worked on projects involving machine learning to optimize bidding in real-time, our data collection practices had nothing to do with AI. What they did rely on was huge feats of data engineering.
-                
-                <p></p>The bottom line is that these companies use ML/AL to improve their ability to reach target audiences of users with the “right ads”. Meaning, AI is not guilty of collecting the data; rather, it ingests the data that has already been collected or is being piped into the models in real-time. Ultimately, it is increasing the possibility that you might actually find one of the ads you see helpful.
-                
-                <p></p>The government aspect is a tough one. Unfortunately, unless the media discovers something, documents are leaked, or a whistle-blower comes forward, there is usually a significant time gap between what the government’s doing around domestic intelligence and when the populace finds out. In regards to how the government is using AI to facilitate data collection, I suspect the answer is “however they want.”
-                
-                <p></p>Bias and Discrimination 
-                <p></p>“AI systems can inherit biases from their human creators or from biased data sets they are trained on. This can lead to discriminatory outcomes in areas like hiring, law enforcement, and loan approval, perpetuating and even amplifying existing inequalities.” - ChatGPT
-               
-                <p></p>This is an absolutely legitimate fear. Data will always reflect systematic bias if steps are not taken to mitigate. In healthcare, there have been numerous disturbing cases where the use of AI resulted in disparities of care or interventions. I won’t go into all of the ways we can and should be addressing this issue here, but would recommend this paper co-authored by fairness in machine learning expert Dr. Na Zou.
-               
-                <p></p>Weaponization
-                <p></p>“The potential military applications of AI, including autonomous weapons systems that can select and engage targets without human intervention, raise fears of a new arms race and the possibility of AI being used in warfare with catastrophic consequences.” -ChatGPT
-                
-                <p></p>I find this somewhat bemusing. There’s nothing speculative about the threat atomic weapons pose to humans, and for over 70 years we’ve found a way to co-exist. That is not to downplay the risk of nuclear destruction, but rather to say that existential threat from war is something we’ve had to learn to accept. Runner-up to nuclear war on threats that we’re already living with is cyber attacks against our aging power grids. In that scenario, at least, we can be grateful AI is being used in cybersecurity.
-                
-                <p></p>Existential Risk
-                <p></p>“Some theorists and technologists fear that a superintelligent AI, one that surpasses human intelligence in all aspects, could pose an existential risk to humanity if its goals are not aligned with human values and interests. This scenario, often depicted in science fiction, involves AI deciding that humans are either a threat, irrelevant, or resources to be optimized, leading to humanity's extinction or subjugation.” -ChatGPT
-                
-                <p></p>Since we addressed this issue in Part 1, I’ll just make the additional point that I find it frustrating how, in the context of this specific fear, science is far too often conflated with futurism. Though occasionally futurists do get it right (see my literary hero William Gibson).
-                
-                
-                <p></p>Part 3
-                
-                <p></p>In this post, we’ll conclude our look at some of the primary issues and fears people have around AI technology. 
-                
-                <p></p>Dehumanization and Ethical Concerns 
-                <p></p>“There's a concern that the widespread use of AI in areas such as care for the elderly, children's education, or even companionship could lead to a dehumanization of society. People worry that replacing human interactions with AI might erode social bonds and ethical values.” -ChatGPT
-                
-                <p></p>As a company that facilitates human engagement with AI through voice, conceivably we might want to sidestep this point. But I’ll address it head-on, as I don’t see it as an indictment. AI is like any technology: its morality lies in application, not existence. We’re excited about the development of AI because we see the myriad of ways it can help humans accomplish tasks. If scientists and engineers operated under the belief that risk of abuse outweighs technological advancements, we’d simply never advance.
-                
-                <p></p>Speaking directly to the points above, these are all areas where the responsibility lies with humans. Elder abuse and neglect has always been a societal issue; it’s up to us as a society and individuals to choose how we care for the elderly. The same holds true for education. EdTech has some incredibly exciting things going on, and I have a hard time seeing how the demonstrable benefits to students could be outweighed by speculative misuse.
-                
-                <p></p>Finally, applying human ethical concerns to AI reminds me of the danger in attributing human feelings to animals. I spend a fair amount of my time working out of a ranch in Texas. An important lesson for anyone in being around bigger animals like horses and donkeys is, however much we love them (no one ever forgets the joy of companionship with a good horse), they are incredibly powerful and have hardwired instincts. If a horse spooks and bucks the rider, and the rider is injured in the fall, the horse will not “feel guilty”. In fact, it’s unfair to animals to saddle them (pun intended) with human emotions. We lose sight of this at our peril.
-                
-                <p></p>AI is not in itself a party to human ethics. As I said above, the ethical implications are in how humans apply it. This is again an issue where I feel important discussions around technology ethics are derailed by futurism.
-                
-                <p></p>Economic and Social Disruption
-                <p></p>“Beyond job loss, AI is expected to cause broad economic and social disruptions. The fear is that the benefits of AI will be unevenly distributed, exacerbating wealth inequalities and creating new divides in society between those who control AI technologies and those who are affected by them.” - ChatGPT 
-                
-                <p></p>At the risk of sounding like a broken record, this is again a case where fears over AI are actually fears over how humans will use AI. Disparities in wealth and power are obviously a legitimate concern, but they have been throughout human history. I personally don’t believe the evils that powerful bad actors have perpetrated in the past will be somehow surpassed because of the existence of AI.
-                
-                <p>In closing, there are absolutely reasonable concerns and issues around AI that we should be aware of and continue to monitor. My point is that, like any technology or tool Man invents, the most crucial questions and ethics lie not in AI itself, but rather in how we apply it. 
-                </p>
+            <p>The release of OpenAI's Sora has generated both excitement and consternation. While the fears are predictable, they raise important questions about the core issues. I asked ChatGPT about these concerns, and its response listed eight main reasons why people fear AI. I'll address each one across three blog posts.</p>
+
+            <p>Loss of Jobs</p>
+            <p>"One of the most immediate concerns is the fear that AI and automation will lead to widespread job loss. As AI systems become more capable of performing tasks traditionally done by humans, from manufacturing to even more complex cognitive jobs, there's a worry that humans will be increasingly displaced from the workforce." - ChatGPT</p>
+            
+            <p>While AI automation will likely displace some jobs and roles, as with many emotionally charged issues, confirmation bias often trumps good faith attempts to measure actual causality.</p>
+            
+            <p>This issue isn't unique to AI. The biggest paradigm shifts in tech have always disrupted the economy and society. Once ubiquitous, the technology becomes invisible. Most people are unaware of how much AI they already use daily, from spam filters to product recommendations.</p>
+           
+            <p>The most important takeaway is that AI will continue on its current trajectory. To quote the title of a 2023 article in the Harvard Business Review by Karim Lakhani: "AI Won't Replace Humans But Humans With AI Will Replace Humans Without AI".</p>
+            
+            <p>AI Overlords</p>
+            <p>"Popular culture often depicts scenarios where AI becomes too intelligent or self-aware, leading to situations where humans can no longer control or predict AI behavior. This fear is rooted in the concern that AI might one day surpass human intelligence (a concept known as the singularity), potentially leading to outcomes that could harm humanity."- ChatGPT</p>
+            
+            <p>This is what I like to think of as "the Skynet scenario". Recently, Artificial General Intelligence has replaced singularity as the AI that could eventually supplant humankind. Ian Hogwarth's 2023 State of AI Report defines AGI as "God-like AI." But what would this actually mean?</p> 
+           
+            <p>Cambridge's Dr. Tom McClelland argues we're not in a position to make an informed judgment about conscious AI, since we don't really understand our own human consciousness. The MIT Technology Review echoes this, highlighting the difficulty in determining consciousness.</p>
+           
+            <p>This definitional challenge recalls Bertrand Russell's "turkey illusion" explaining Hume's problem of induction. It illustrates how AI complements us: while we can't be certain the sun will rise tomorrow based on past sunrises, AI gets us closer. Perhaps seeing AI as addressing pre-existing human needs makes it feel more like natural progress than a threat.</p>
+           
+            <p>The technology underlying GenAI has existed for decades. The Markov chain (1906) offers a simple example: predicting text by looking at previous words, similar to ChatGPT's basic approach.</p>
+           
+            <p>MIT professor Tommi Jaakkola notes: "We were generating things way before the last decade, but the major distinction here is in terms of the complexity of objects we can generate and the scale at which we can train these models." The fundamental tech isn't new; the applications are.</p>
+
+            <p>Part 2</p>
+            <p>Yesterday we began exploring why AI generates such fear. Having addressed the first two reasons from ChatGPT, let's examine the next four.</p>
+           
+            <p>Privacy Invasion</p>
+            <p>"AI technologies, especially those involving surveillance and data analysis, raise fears about the erosion of privacy. The ability of AI systems to collect, analyze, and act on vast amounts of personal data can lead to unprecedented levels of surveillance and intrusion into private lives." - ChatGPT</p>
+            
+            <p>A 2023 Pew Research Center survey found 81% of Americans worry about how private companies use their data, and 71% about government data use. This concern runs deep.</p>
+            
+            <p>However, this shouldn't be laid at AI's door. From my five years in AdTech, I saw that while we used ML to optimize real-time bidding, our extensive data collection practices existed independently of AI. They relied on data engineering, not artificial intelligence.</p>
+            
+            <p>Companies use ML/AI to better target ads to relevant audiences. AI doesn't collect the data; it processes what's already gathered. If anything, it increases the chance you'll see useful ads.</p>
+            
+            <p>The government aspect is murkier. Without media exposés, leaked documents, or whistleblowers, we often learn about domestic intelligence practices long after implementation. As for how the government uses AI for data collection? Likely however they choose.</p>
+
+            <p>Bias and Discrimination</p>
+            <p>"AI systems can inherit biases from their human creators or from biased data sets they are trained on. This can lead to discriminatory outcomes in areas like hiring, law enforcement, and loan approval, perpetuating and even amplifying existing inequalities." - ChatGPT</p>
+           
+            <p>This is a legitimate fear. Data inherently reflects systematic bias unless actively mitigated. Healthcare offers disturbing examples where AI has created disparities in care. For deeper analysis of solutions, see the paper by fairness in machine learning expert Dr. Na Zou.</p>
+           
+            <p>Weaponization</p>
+            <p>"The potential military applications of AI, including autonomous weapons systems that can select and engage targets without human intervention, raise fears of a new arms race and the possibility of AI being used in warfare with catastrophic consequences." -ChatGPT</p>
+            
+            <p>I find this somewhat bemusing. Nuclear weapons pose a non-speculative threat, yet we've coexisted with them for 70 years. This isn't to minimize nuclear risk, but to note that existential threats aren't new. Even cyber attacks on aging power grids pose immediate dangers. Here, at least, AI serves as a defensive tool in cybersecurity.</p>
+            
+            <p>Existential Risk</p>
+            <p>"Some theorists and technologists fear that a superintelligent AI could pose an existential risk to humanity if its goals misalign with human values. This scenario envisions AI viewing humans as either threats, irrelevant, or resources to be optimized." -ChatGPT</p>
+            
+            <p>As noted in Part 1, science too often gets conflated with futurism in these discussions. Though occasionally futurists get it right (see my literary hero William Gibson).</p>
+            
+            <p>Part 3</p>
+            <p>Let's conclude our examination of primary AI fears with the final two concerns.</p>
+            
+            <p>Dehumanization and Ethical Concerns</p>
+            <p>"There's concern that widespread AI use in elderly care, education, or companionship could dehumanize society. People worry that replacing human interactions with AI might erode social bonds and ethical values." -ChatGPT</p>
+            
+            <p>As someone working at a company facilitating human-AI voice interaction, I'll address this head-on. AI's morality lies in application, not existence. We're excited about AI because it helps humans accomplish tasks. If potential abuse prevented technological advancement, we'd never progress.</p>
+            
+            <p>These concerns ultimately rest with humans. Elder care and education have always been societal responsibilities. While EdTech shows promising benefits, how we implement it remains our choice.</p>
+            
+            <p>Applying human ethics to AI resembles attributing human emotions to animals. Working at a Texas ranch, I've learned that horses, while beloved companions, are powerful creatures with hardwired instincts. A spooked horse that injures its rider feels no guilt. Similarly, AI isn't party to human ethics - the ethical implications lie in how we apply it.</p>
+            
+            <p>Economic and Social Disruption</p>
+            <p>"Beyond job loss, AI may cause broad economic and social disruptions. The fear is that AI's benefits will be unevenly distributed, widening societal divides between those controlling and those affected by the technology." - ChatGPT</p>
+            
+            <p>Again, these fears reflect concerns about human behavior rather than AI itself. While wealth and power disparities merit attention, they're historical constants. The potential for misuse by bad actors isn't unique to AI.</p>
+            
+            <p>In closing, we should remain mindful of legitimate AI concerns. But like any human invention, the crucial questions center not on the technology itself, but on its application.</p>
         </article>
         
         <article>
             <h2>Improving AI for Atypical Voices is a Win for All of Us</h2>
-            <p>Something I love about working in the AI space is the positive impact it can have on the day to day lives of individuals. I recently came across an episode of the Wall Street Journal podcast “The Future of Everything” that discussed ways AI voice assistants can help people with atypical voices (e.g., those with conditions like Parkinson’s disease and muscular dystrophy) better use devices like Apple’s Siri and Amazon’s Alexa. The ultimate question the podcast raises is: “What will it take to create voice assistants that work for everyone right out of the box?”
+            <p>Working in AI, I'm inspired by its potential impact on individual lives. A recent Wall Street Journal "Future of Everything" podcast explored how AI voice assistants can help people with atypical voices better use devices like Siri and Alexa. The core question: "What will it take to create voice assistants that work for everyone right out of the box?"</p>
 
-                <p></p>Engaging with the World
-                
-                <p></p>One of the guests on the podcast is Michael Cash, a 49 year old with cerebral palsy. He has never had trouble communicating with friends and family, but he says it took many years of speech therapy to feel confident speaking with new people. 
-                
-                <p></p>A recurring frustration he speaks to is that Siri and Alexa have significant trouble understanding him. While Google claims that the error rates of its automatic speech recognition can be less than 10%, for people with neurologic or voice-specific conditions, the error rates can easily be 50% or even as high as 90%.
-                
-                <p></p>Evolving Methodology
-                
-                <p></p>According to Mark Hasegawa, a professor of Electrical and Computer Engineering at the University of Illinois Urbana- Champaign, it wasn’t until 2014 that the first commercially viable end-to-end neural network automatic speech recognizer was published. This enabled us to predict the speech sounds coming up based on the speech sounds that came before. That, and a database called Librispeech curated by Johns Hopkins containing hundreds of hours of amateur audiobook recordings. 
-                
-                <p></p>However, while the larger datasets like Librispeech and end-to-end neural network training systems brought this technology into public use, the algorithms still had difficulty understanding the speech patterns of people with atypical voices–the same difficulties humans often have. Therefore, companies have had to seek new ways to mitigate this issue and make the tech accessible and usable for everyone.
-                
-                <p></p>New Approaches 
-                
-                <p></p>Michael Cash, referenced above, works at a company called Voiceitt. In August 2023, Voiceitt released a product called Voiceitt2 that allows users to train a voice assistant themselves in order to unlock a whole array of functionalities. These include features like transcription and dictation; meaning users can write notes, documents, and emails using their voice. And users can interact with ChatGPT as well via the app. 
-                
-                <p></p>But most exciting is that Voiceitt can now create real-time transcripts of what people are saying and integrate that into workplace software like Webex. Sara Smolley, co-founder of Voiceitt, describes this as “what a ramp was to an office building, Voiceitt is to today’s remote workplace.”
-                 
-                <p></p>Voice AI That’s More Accessible for Everyone 
-                
-                <p></p>A thing that Google, Amazon, and Voiceitt all agree on is that advancing the tech in terms of accessibility will result in lower error rates and improved functionality for all users. But setting aside universal benefit, this is essential work for users with disabilities–which means it’s essential to us as a society. According to the UN, an estimated 15% of the world’s population, or 1 billion people, live with a disability. And quoting from a 2020 paper published by the National Institute of Health, 
-                
-                <p></p>People suffering from motor and cognitive impairments would significantly benefit from the possibility of controlling home appliances and personal devices remotely. Voice assistants hold the potential to enable individuals with disabilities to govern their houses without the need to constantly depend on caregivers.”
-                
-                <p>I see this as a call to action for all of us to keep pushing the frontiers of accessibility. This is one of the many reasons I’m proud to work at Vapi. Our continued ML work around improving models for conversational intelligence is enabling better and better speech recognition. And we’re already supporting 70+ different languages, with more in the pipeline. I sincerely believe, despite the naysayers, that AI can, is, and will continue to make a positive impact on people’s lives.
-                 </p>
+            <p>Engaging with the World</p>
+            <p>Michael Cash, 49, lives with cerebral palsy. While comfortable communicating with friends and family, it took years of speech therapy to build confidence with strangers.</p>
+            
+            <p>He faces ongoing challenges with voice assistants like Siri and Alexa. While Google claims under 10% error rates for automatic speech recognition, people with neurologic conditions often encounter 50-90% error rates.</p>
+            
+            <p>Evolving Methodology</p>
+            <p>Mark Hasegawa from the University of Illinois notes that commercially viable end-to-end neural network speech recognition emerged only in 2014. This breakthrough enabled predicting upcoming speech sounds based on previous ones, aided by Johns Hopkins' Librispeech database of audiobook recordings.</p>
+            
+            <p>Yet even with advanced datasets and neural networks, these systems struggle with atypical voices – much like humans do. This has driven companies to seek innovative solutions for universal accessibility.</p>
+            
+            <p>New Approaches</p>
+            <p>Cash now works at Voiceitt, which released Voiceitt2 in August 2023. This tool lets users train their voice assistant, enabling features from transcription to ChatGPT interaction. Most significantly, it creates real-time transcripts for workplace software like Webex. As Voiceitt co-founder Sara Smolley puts it, "What a ramp was to an office building, Voiceitt is to today's remote workplace."</p>
+             
+            <p>Voice AI That's More Accessible for Everyone</p>
+            <p>Google, Amazon, and Voiceitt agree: improving accessibility enhances functionality for all users. Beyond universal benefits, this work is crucial for the estimated 1 billion people (15% of the global population) living with disabilities. A 2020 NIH paper notes:</p>
+            
+            <p>"People with motor and cognitive impairments could significantly benefit from remotely controlling home appliances and personal devices. Voice assistants can help individuals with disabilities manage their homes independently."</p>
+            
+            <p>This represents a call to action for advancing accessibility. At Vapi, our ML work on conversational intelligence continues improving speech recognition across 70+ languages. Despite skeptics, AI's positive impact on lives grows daily.</p>
         </article>
         
         <article>
             <h2>Covid19: Advertising Strategies to Help Your Business During These Uncertain Times</h2>
-            <p>
-                We recognize that our partners and advertisers are in uncharted territory and business needs are shifting. We are here and ready to help your business during this uncertain time, and will help and support you wherever we can.
+            <p>As our partners face unprecedented challenges, we're committed to helping businesses maintain visibility and revenue. Here are key strategies:</p>
 
-                <p></p>One area in particular where we can help is enabling businesses to stay visible to keep revenue coming in during these uncertain times.
-                
-                Here are some thoughts on how we can help:
-                
-                 <p></p>STRATEGY 1
-                 <p></p>Drive Online Sales and Track Conversions
-                
-                 <p></p>Many retailers and other brick-and-mortar stores are closing their locations to help prevent the spread of the coronavirus in the U.S. For them, online sales will now be more important than ever before. Simpli.fi can help advertisers drive online sales by reaching consumers where they are spending the most time. Today, that is at their homes consuming media across multiple screens‚Äîincluding the big screen in the living room.
-                
-                 <p></p>In the current circumstances, advertisers can utilize Addressable Geo-Fencing to drive awareness of their e-commerce business by targeting consumers at the household-level with mobile, video, and/or OTT/CTV ads. For example, a clothing retailer that has temporarily closed its brick-and-mortar stores can target relevant households with ads relating to their product and/or service offerings (including sales, promotions, etc.). Along with driving online sales, the retailer can also leverage Addressable Geo-Fencing to showcase to customers how it’s serving the community during this difficult time.
-                
-                 <p></p>STRATEGY 2
-                <p></p>Increase Drive-Through & To-Go Traffic
-                
-                <p></p>In a significant increase in their measures to stop the spread of COVID-19, the federal and state governments have issued guidelines calling on Americans to avoid social gatherings of more than ten people. This has resulted in the temporary closure of many bars and restaurants‚Äîparticularly their dining rooms. Many are offering drive-through services as well as to-go and delivery options to keep their businesses afloat.
-                
-                <p></p>How can you get the word out that you are still open for business, but operating with limitations? Advertisers can utilize Simpli.fi’s Addressable Audience Curation (AAC) tool to target an addressable audience and drive awareness regarding temporary hours of operation, drive-through or take-out policies, and/or delivery services.
-                
-                <p></p>For instance, a fast food restaurant could target households based on the number and age of residents, and target those households who live within postal codes near their restaurant with mobile, video, and/or OTT/CTV ads.
-                
-                 <p></p>STRATEGY 3
-                <p></p>Increase Monthly Subscription Renewals
-                
-                <p></p>In keeping with the themes of spending more time at home and social distancing, subscription-based services have an advantage under these circumstances. Are you a Video-on-Demand subscription service such as Netflix or Hulu, or a meal-delivery subscription service such as Hello Fresh or Blue Apron? Now is your time to get your brand name in front of your customers and promote memberships and/or renewals.
-                
-                <p></p>During these pressing times, consumers are looking to access services that don’t require them to leave their home. Other advertisers that are likely to benefit from this strategy include CPG brands looking to promote subscription purchases via Amazon; especially since Amazon is prioritizing delivery on basic essentials at the moment. Our Addressable Geo-Fencing and Addressable OTT/CTV solutions are an ideal way to get your brand in front of homebound consumers with impactful ads across all devices.
-                 
-                <p></p>Whether it is driving online sales, drive-through traffic, or increasing subscriptions, Simpl.fi has highly targeted advertising solutions that ensure that your advertising budgets delivered on your goals while minimizing waste:
-                 
-                <p></p>HOUSEHOLD-LEVEL TARGETING WITH SIMPLI.FI’S ADDRESSABLE GEO-FENCE
-                <p></p>With the CDC and WHO encouraging the population to practice social distancing and avoid large gatherings, more and more consumers are spending the majority of their time at home. Meaning, the ability for advertisers to help drive awareness by using digital advertising to target physical addresses has now become essential.
-                
-                <p></p>Build and activate a custom household-level audience in real-time using more than 500 offline data variables (including demographic, economic, and political variables) for inclusion or exclusion via full Boolean capabilities.
-                <p></p>Target based on GPS and plat line data from property tax and public land surveying information to maximize precision of addresses being targeted.
-                <p></p>Improve performance of addressable TV, direct mail, and other campaigns that target specific households by extending their reach, improving their frequency, and providing attribution.
-                <p></p>Report and break down campaign performance by ZIP+4 level.
-                <p></p>Target all individuals at the address on multiple devices by leveraging Simpli.fi’s cross-device graph.
-                <p></p>Create granular audiences from CRM systems and other offline databases.
-                
-                <p></p>Addressable Geo-Fencing is a perfect fit for any business that has temporarily shut down its brick-and-mortar locations and must now rely on online business to generate revenue. Using address data from first party lists or a custom curated addressable audience, retailers or other types of businesses can utilize Addressable Geo-Fencing to target relevant households with ads relating to their product and/or service offerings (including sales, promotions, etc.)
-                
-                 <p></p>ADVANCED OTT/CTV ADVERTISING WITH SIMPLI.FI’S ADDRESSABLE PROGRAMMATIC
-                 <p></p>Nielsen predicts a 60% rise in the amount of video content consumed in U.S. homes due to worldwide health fears. As more and more consumers stream TV content to keep themselves occupied while homebound, advertisers have a unique opportunity to reach their audience in new ways and on more devices within the home.
-                
-                 <p></p>For example, consider a CPG brand like a soft drink company. With so many people staying home, comfort food like a familiar soft drink will be in high demand. Utilizing the same addressable targeting capabilities as Addressable Geo-Fencing, this solution enables advertisers to target consumers with OTT/CTV ads on both the big screen in the living room and/or other small screen devices within a household such as mobile devices and tablets.
-                
-                 <p></p>TRACK ONLINE CONVERSIONS TO DETERMINE THE IMPACT YOUR ADS HAVE ON THE BOTTOM LINE
-                <p></p>As streaming TV content increases, so will second-screening. 88% of the U.S. population uses a computer or mobile device to browse online while watching either digital video or traditional TV (Nielsen), and this number will only grow the more time we are encouraged to spend at home practicing social distancing.
-                
-                <p></p>Advertisers can now measure online conversions from OTT/CTV ads shown on televisions and other streaming devices. During this time of economic volatility, advertisers can attribute an ROI to their OTT/CTV campaigns by tracking online conversions, such as visiting an advertiser’s website, completing a form-fill, adding a product to a shopping cart, purchasing a product, and more.
-                
-                <p></p>OPTIMIZE AT THE HOUSEHOLD-LEVEL TO DRIVE PERFORMANCE
-                <p></p>During this time, it is essential for advertisers to make sure their advertising is as effective as possible. This means reaching the right person at the right time with a relevant message and minimizing wasted impressions. Simpli.fi offers advertisers the ability to target users based on individual, relevant data elements and then optimize the campaign throughout its duration to maximize performance. Once a campaign is activated, Simpli.fi can then make midflight adjustments to improve performance and reach. The end result is maximum performance and minimum wasted impressions. For advertisers, this means increased cost-savings and a significantly better ROI for their campaigns.
-                
-                 
-                <p>With a drastic shift in consumer behavior, we recognize that businesses need to quickly adjust in order to continue driving revenue and reach consumers where they are spending the majority of their time at home and across many devices. Simpli.fi is committed to standing alongside our partners and advertisers.
-                                  
-            </p>
+            <p>STRATEGY 1: Drive Online Sales and Track Conversions</p>
+            <p>With brick-and-mortar closures due to coronavirus, online sales become critical. Simpli.fi helps reach consumers at home across multiple screens. Using Addressable Geo-Fencing, retailers can target households with mobile, video, and OTT/CTV ads, promoting e-commerce while demonstrating community service.</p>
+
+            <p>STRATEGY 2: Increase Drive-Through & To-Go Traffic</p>
+            <p>As government guidelines restrict gatherings, restaurants are pivoting to drive-through and delivery options. Our Addressable Audience Curation (AAC) tool helps target local households with updates on operating hours and services.</p>
+
+            <p>STRATEGY 3: Increase Monthly Subscription Renewals</p>
+            <p>Subscription services (streaming, meal delivery, CPG via Amazon) can leverage increased home-based consumption. Our Addressable solutions reach homebound consumers across devices.</p>
+
+            <p>Key Capabilities:</p>
+            <ul>
+                <li>Household-Level Targeting with real-time audience customization</li>
+                <li>Advanced OTT/CTV Advertising reaching multiple devices</li>
+                <li>Conversion Tracking for ROI measurement</li>
+                <li>Performance Optimization minimizing wasted impressions</li>
+            </ul>
+
+            <p>As consumer behavior shifts dramatically, Simpli.fi stands ready to help businesses adapt and thrive in reaching their home-based audience.</p>
         </article>
     </section>
     
